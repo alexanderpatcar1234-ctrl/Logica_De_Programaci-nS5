@@ -48,7 +48,7 @@
 
 # ACTIVIDAD AAAAAAAAA#
 
-secret_number = 777
+numero_secreto = 7
 
 print(
 """
@@ -60,3 +60,9 @@ print(
 |¿Cuál es el número secreto?     |
 +================================+
 """)
+numero = int(input(""))
+
+while numero != numero_secreto:
+    print("!Ja, ja! ¡Estas atrapado en mi buqle!")
+    numero(int(input("Ingresa el numero nuevamente:")))
+print("!Bien hecho, muggle! Eres libre ahora.")
